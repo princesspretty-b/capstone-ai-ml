@@ -49,8 +49,8 @@ duplicate_fraction = 0.2
 duplicate_rows = df_d.sample(frac=duplicate_fraction, random_state=42)
 df = pd.concat([df_d, duplicate_rows], ignore_index=True)
 df = df.sample(frac=1, random_state=42).reset_index(drop=True)
-df.to_csv("diabetes_dataset.csv", index=False)
-new_file_path = "diabetes_dataset.csv"
+df.to_csv("part1/diabetes_dataset.csv", index=False)
+new_file_path = "part1/diabetes_dataset.csv"
 print(f"\nShape : {df.shape}")
 
 # Task 1: Load the dataset into a pandas DataFrame using pd.read_csv() (or equivalent). 
@@ -500,5 +500,5 @@ print(f"\nMean Ratio = {ratio:.2f}")
 
 '''Task 10: Save the clean dataset to a file named cleaned_data.csv using df.to_csv('cleaned_data.csv', index=False).'''
 
-df.to_csv("cleaned_data.csv", index=False)
+df.to_csv("part1/cleaned_data.csv", index=False)
 print("Cleaned dataset saved successfully as 'cleaned_data.csv'")
