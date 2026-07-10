@@ -180,7 +180,7 @@ Since both columns were skewed, the **median** was chosen for imputing missing v
 
 After applying fillna() with the median, isnull().sum() confirmed that no missing values remained.
 
-- 1. **Spearman rank correlation:**
+- 2. **Spearman rank correlation:**
 
 The Pearson and Spearman correlation matrices were computed and compared. The three variable pairs with the largest absolute differences between the two correlation measures were:
 
@@ -211,7 +211,7 @@ Again, **|Spearman| > |Pearson|**, suggesting a **monotonic but non-linear relat
 
 Since **|Spearman| > |Pearson|**, this pair also exhibits a **weak monotonic relationship**. Individuals with a higher number of pregnancies tend to have slightly higher serum insulin rankings, but the relationship is weak and non-linear.
 
-- 1. **Grouped aggregation:**
+- 3. **Grouped aggregation:**
 
 The dataset was grouped by **Diabetes_Status**, and summary statistics (mean, standard deviation, and count) were calculated for the **Glucose** column.
 
