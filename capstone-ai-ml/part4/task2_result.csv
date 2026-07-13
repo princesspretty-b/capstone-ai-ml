@@ -1,0 +1,44 @@
+Input,Output at temp=0,Output at temp=0.7
+"{'Pregnant': 6, 'Diastolic_BP': 85, 'Skin_Fold': 35, 'Serum_Insulin': 250, 'BMI': 38, 'Diabetes_Pedigree': 0.85, 'Age': 55, 'Hospital_Fortis': 0, 'Hospital_Gleneagals': 0, 'Hospital_Kavery': 1, 'Hospital_MMM': 0}","{
+    ""prediction_label"": ""Positive for diabetes risk"",
+    ""confidence_level"": ""medium"",
+    ""top_reason"": ""High BMI of 38 indicating obesity, which is a significant risk factor for diabetes"",
+    ""second_reason"": ""Elevated serum insulin level of 250 suggesting possible insulin resistance"",
+    ""next_step"": ""Consult a healthcare professional for further evaluation and possible diagnostic testing""
+}","{
+    ""prediction_label"": ""Positive for diabetes risk"",
+    ""confidence_level"": ""medium"",
+    ""top_reason"": ""High BMI of 38 indicating obesity, which is a significant risk factor for diabetes"",
+    ""second_reason"": ""Elevated serum insulin level of 250 suggesting possible insulin resistance"",
+    ""next_step"": ""Recommend consulting a healthcare provider for further testing and evaluation""
+}"
+"{'Pregnant': 0, 'Diastolic_BP': 65, 'Skin_Fold': 20, 'Serum_Insulin': 90, 'BMI': 22, 'Diabetes_Pedigree': 0.2, 'Age': 25, 'Hospital_Fortis': 1, 'Hospital_Gleneagals': 0, 'Hospital_Kavery': 0, 'Hospital_MMM': 0}","{
+    ""prediction_label"": ""No Diabetes"",
+    ""confidence_level"": ""high"",
+    ""top_reason"": ""Low prediction probability of 0.044 indicates a strong likelihood of not having diabetes."",
+    ""second_reason"": ""Normal BMI of 22 and young age of 25 reduce the risk factors associated with diabetes."",
+    ""next_step"": ""Continue regular health check-ups and maintain a healthy lifestyle to monitor and prevent diabetes.""
+}","```json
+{
+    ""prediction_label"": ""No Diabetes"",
+    ""confidence_level"": ""high"",
+    ""top_reason"": ""Low prediction probability of 0.044 indicating low risk."",
+    ""second_reason"": ""Healthy feature values such as normal BMI of 22 and young age of 25."",
+    ""next_step"": ""Continue regular health monitoring and maintain a healthy lifestyle.""
+}
+```"
+"{'Pregnant': 2, 'Diastolic_BP': 75, 'Skin_Fold': 28, 'Serum_Insulin': 150, 'BMI': 30, 'Diabetes_Pedigree': 0.5, 'Age': 40, 'Hospital_Fortis': 0, 'Hospital_Gleneagals': 1, 'Hospital_Kavery': 0, 'Hospital_MMM': 0}","```json
+{
+    ""prediction_label"": ""positive"",
+    ""confidence_level"": ""medium"",
+    ""top_reason"": ""BMI of 30 indicates obesity, which is a significant risk factor for diabetes."",
+    ""second_reason"": ""Serum Insulin level of 150 is elevated, suggesting possible insulin resistance."",
+    ""next_step"": ""Consult a healthcare professional for further evaluation and possible diagnostic testing.""
+}
+```","{
+    ""prediction_label"": ""Positive for diabetes risk"",
+    ""confidence_level"": ""low"",
+    ""top_reason"": ""BMI is elevated at 30, indicating overweight status which is a risk factor for diabetes."",
+    ""second_reason"": ""Serum insulin level is relatively high at 150, which may suggest insulin resistance."",
+    ""next_step"": ""Consider consulting a healthcare professional for further evaluation and possible diagnostic testing.""
+}"
