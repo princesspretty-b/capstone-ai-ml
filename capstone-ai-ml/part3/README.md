@@ -114,7 +114,9 @@ A lower Gini value indicates a purer node.
 
 Entropy measures the amount of uncertainty or disorder within a node.
 
-            $\text{Entropy} = -\sum_{i=1}^{n} p_i \log_2(p_i)$
+$$
+\text{Entropy} = -\sum_{i=1}^{n} p_i \log_2(p_i)
+$$
 
 where:
 
